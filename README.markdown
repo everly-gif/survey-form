@@ -1,5 +1,6 @@
 # Survey form
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/shimmer_7/pen/jOMrOGQ](https://codepen.io/shimmer_7/pen/jOMrOGQ).
+A simple static form created with pure HTML and CSS. <br>
+Full live version here : https://codepen.io/shimmer_7/full/jOMrOGQ
 
 
