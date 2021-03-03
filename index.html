@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<center><h1 id="title">Post Event Feedback</h1>
+  <p id="description"><em>We value your feedback</em></p></center>
+  <div><form id="survey-form">
+    <label for="name" id="name-label">Name</label><br>
+    <input id="name" type="text" placeholder="Enter your Name" required><br>
+    <label for="email" id="email-label">Email</label><br>
+    <input id="email" type="email" placeholder="Enter your Email" required><br>
+    <label id="number-label" for="number">Age</label><br>
+    <input id="number" type="number" min="13" max="55" placeholder="Enter your age" required><br>
+    <label for="dropdown">What type of event did you attend?</label><br><br>
+ <select id="dropdown" required>
+   <option disable selected value >Select the event</option>
+   <option value="workshop">Workshop</option>
+      <option value="AMA">AMA With the guests</option>
+      <option value="bootcamp">Bootcamp</option>
+   <option value="activity-pen">Activity pen</option></select>
+    <p>How was your experience?</p>
+    
+		<input id="good" type="radio" name="experience" value="good">
+	<label for="good">Good</label><br>
+	
+		<input id="not bad" type="radio" name="experience" value="Not-bad" >
+    <label for="not bad">Not bad
+	</label><br>
+       
+		<input id="bad" type="radio" name="experience" value="bad"><label for="bad"> Bad
+	</label><br>
+    <p>What type of events you want to see more from us?</p>
+    <input type="checkbox" value="worshops">
+    <label>Worshops</label><br>
+    <input type="checkbox" value="AMA">
+    <label>AMA</label><br>
+    <input type="checkbox" value="bootcamps">
+    <label>Bootcamps</label><br>
+    <input type="checkbox" value="activity-pen">
+    <label>Activity Pen</label><br><br>
+    <label>Do you have anymore suggestions?</label><br>
+    <textarea name="suggestions" placeholder="We love suggestions!"></textarea>
+    <br><button id="submit">SUBMIT</button>
+</form></div>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
+</body>
+</html>
